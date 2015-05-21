@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var db = require('../mongoConnection');
+var gcm = require('../gcmSender');
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -29,6 +30,7 @@ router.post('/Login', function(req, res){
 		}
 		else
 		{
+			gcm.sendPin(user.gcm_id);
 			return res.status(201);
 		}
 
