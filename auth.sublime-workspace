@@ -1,0 +1,571 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"task",
+				"task"
+			],
+			[
+				"ta",
+				"task"
+			],
+			[
+				"projec",
+				"projects"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"consta",
+				"constants"
+			],
+			[
+				"cons",
+				"constants"
+			],
+			[
+				"new",
+				"newPlant"
+			],
+			[
+				"fk_",
+				"fk_id_film"
+			],
+			[
+				"pk_id",
+				"pk_id_film"
+			],
+			[
+				"id",
+				"pk_id_predvajanje"
+			],
+			[
+				"pk_",
+				"pk_id_film"
+			],
+			[
+				"PRODA",
+				"PRODAJALEC"
+			],
+			[
+				"get",
+				"getQuantity"
+			],
+			[
+				"re",
+				"renderCart"
+			],
+			[
+				"html",
+				"htmlBuidler"
+			],
+			[
+				"shopCart",
+				"shopCartViewModel"
+			],
+			[
+				"showCar",
+				"showCartItems"
+			],
+			[
+				"shop",
+				"shopCartLogic"
+			],
+			[
+				"getI",
+				"getId"
+			],
+			[
+				"crea",
+				"createViewModel"
+			],
+			[
+				"vm",
+				"vmItems"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"inc",
+				"increseQuantity"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"prt",
+				"prototype"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"r",
+				"robot"
+			],
+			[
+				"ro",
+				"robby"
+			],
+			[
+				"p",
+				"__proto__"
+			],
+			[
+				"fk_id_pro",
+				"fk_id_prodane_vstopnice"
+			],
+			[
+				"Pr",
+				"PRODANE_VSTOPNICE"
+			],
+			[
+				"pk_id_pro",
+				"pk_id_prodajalec"
+			],
+			[
+				"PR",
+				"PRODAJALEC"
+			],
+			[
+				"T",
+				"TABLE"
+			],
+			[
+				"TI",
+				"TIP_VSTOPNICE"
+			],
+			[
+				"DVO",
+				"DVORANA_OPREMA"
+			],
+			[
+				"pk_id_proda",
+				"pk_id_prodane_vstopnice"
+			],
+			[
+				"PRODANE",
+				"PRODANE_VSTOPNICE"
+			],
+			[
+				"INT",
+				"INTEGER"
+			],
+			[
+				"gru",
+				"grunt-contrib-uglify"
+			],
+			[
+				"ima",
+				"imagemin"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"ng-sw",
+				"ng-switch-default	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"$ro",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"ng-v",
+				"ng-view	AngularJS"
+			],
+			[
+				"javas",
+				"javascripts"
+			],
+			[
+				"mo",
+				"mongoose"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"last_filter": "Install",
+		"selected_items":
+		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"resour",
+				"Laravel Generate: Resource"
+			],
+			[
+				"Laravel ",
+				"Laravel Generate: Form"
+			],
+			[
+				"Laravel Artisan Ro",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"Laravel Artisan",
+				"Laravel Artisan: List"
+			],
+			[
+				"laraverl:r",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"laravel",
+				"Laravel Artisan: List"
+			],
+			[
+				"Artisa",
+				"Laravel Artisan: Controller: Make"
+			],
+			[
+				"Laravel",
+				"Laravel Generate: Controller"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"l",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/ColorPicker/resources/views/game/index.blade.php",
+		"/C/wamp/www/ColorPicker/resources/views/app.blade.php",
+		"/C/wamp/www/ColorPicker/app/Http/Controllers/GameController.php",
+		"/C/wamp/www/ColorPicker/composer.json",
+		"/C/Users/Ziga/AppData/Roaming/Sublime Text 3/Packages/User/Laravel 4 Artisan.sublime-commands",
+		"/C/Users/Ziga/AppData/Roaming/Sublime Text 3/Packages/User/Laravel 4 Artisan.sublime-settings",
+		"/C/wamp/www/ColorPicker/app/Http/routes.php",
+		"/C/wamp/www/ColorPicker/app/Http/Controllers/ScoreControllers.php",
+		"/C/wamp/www/ColorPicker/resources/views/score/index.blade.php",
+		"/C/wamp/www/ColorPicker/database/seeds/ScoreSeeder.php",
+		"/C/Users/Ziga/AppData/Roaming/Sublime Text 3/Packages/Laravel 4 Artisan/Laravel 4 Artisan.sublime-settings",
+		"/C/wamp/www/ColorPicker/database/migrations/2015_05_18_155701_create_scores_tables.php",
+		"/C/wamp/www/ColorPicker/database/migrations/2015_05_18_151836_create_scores_table.php",
+		"/C/wamp/www/laravel/resources/views/projects/index.blade.php",
+		"/C/wamp/www/ColorPicker/app/Http/Controllers/Controller.php",
+		"/C/wamp/www/ColorPicker/resources/views/index.blade.php",
+		"/C/wamp/www/ColorPicker/resources/views/score",
+		"/C/wamp/www/ColorPicker/app/Score.php",
+		"/C/wamp/www/ColorPicker/config/app.php",
+		"/C/wamp/www/ColorPicker/.env",
+		"/C/wamp/www/laravel/database/seeds/DatabaseSeeder.php",
+		"/C/wamp/www/laravel/database/seeds/ProjectsTableSeeder.php",
+		"/C/wamp/www/ColorPicker/database/seeds/DatabaseSeeder.php",
+		"/C/wamp/www/laravel/app/Task.php",
+		"/C/wamp/www/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/C/wamp/www/laravel/vendor/laravel/framework/src/Illuminate/Cache/DatabaseStore.php",
+		"/C/wamp/www/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/C/wamp/www/laravel/app/Http/Controllers/ProjectsController.php",
+		"/C/wamp/www/laravel/app/Http/routes.php",
+		"/C/wamp/www/laravel/app/Http/Controllers/TasksController.php",
+		"/C/wamp/www/laravel/resources/views/projects/show.blade.php",
+		"/C/wamp/www/laravel/resources/views/projects/create.blade.php",
+		"/C/wamp/www/laravel/resources/views/home.blade.php",
+		"/C/wamp/www/laravel/config/app.php",
+		"/C/wamp/www/laravel/database/migrations/2015_05_18_122633_create_projects_and_task_tables.php",
+		"/C/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
+		"/C/wamp/www/laravel/public/.htaccess",
+		"/C/wamp/www/laravel/database/seeds/TaskTableSeeder.php",
+		"/C/wamp/www/laravel/.env",
+		"/C/wamp/www/laravel/package.json",
+		"/C/wamp/www/laravel/resources/views/app.blade.php",
+		"/C/wamp/www/laravel/.htaccess",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/wamp/www/laravel/blog/app/Http/routes.php",
+		"/C/wamp/apps/phpsysinfo3.1.12/.htaccess",
+		"/C/wamp/www/laravel/blog/resources/views/home.blade.php",
+		"/C/wamp/www/laravel/blog/resources/views/app.blade.php",
+		"/C/wamp/www/laravel/blog/public/.htaccess",
+		"/C/wamp/www/laravel/blog/app/Http/Controllers/HomeController.php",
+		"/C/wamp/www/laravel/blog/app/Http/Controllers/Controller.php",
+		"/C/Projects/LaravelProjects/Code/init.sh",
+		"/C/faks/2. letnik/2. semester/OZRA/VAJE/MusicStoreASP/Shared/LayoutLogedIn.cshtml",
+		"/C/faks/2. letnik/2. semester/OZRA/VAJE/MusicStoreWPF/MusicStoreWPF/App.config",
+		"/C/faks/2. letnik/2. semester/OZRA/VAJE/MusicStore/MusicStore/MusicStore/Index.Master",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/public/javascripts/app.js",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/public/data.html",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/db/databaseConnector.js",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/public/index.html",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/constants.json",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/api/user_public.js",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/api/plants.js",
+		"/C/Projects/NikaSistematika/SistematikaRastlin/bin/www",
+		"/C/Users/Ziga/Desktop/test.txt",
+		"/C/faks/2. letnik/2. semester/DSR/Projekt/DSRProjekt/DSRProjekt/packages.config",
+		"/C/faks/ais/vaja9/FifaVictoryTracker/FifaVictory/dbconnectionmanager/dbConnManager.js",
+		"/C/Users/Ziga/Desktop/WpfPrimer/WpfPrimer/MainWindow.xaml.cs",
+		"/C/Users/Ziga/Desktop/WpfPrimer/WpfPrimer/Oseba.cs",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/RestifyImePriimekGame/RestifyImePriimekGame/controllers/user.js",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/RestifyImePriimekGame/RestifyImePriimekGame/app.js",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/RestifyImePriimekGame/RestifyImePriimekGame/controllers/authoratization.js",
+		"/C/Projects/cashder/package.json",
+		"/C/faks/2. letnik/2. semester/DSR/Projekt/DSRProjekt/DSRProjekt/Web.config",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Web.config",
+		"/C/faks/2. letnik/2. semester/DSR/Projekt/DSRProjekt/DSRProjekt/Views/web.config",
+		"/C/Users/Ziga/Documents/Javni ključ.pke",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/Frekvenčna analiza/VIZFrekvencnaAnaliza/VIZFrekvencnaAnaliza/Views/Home/AnalysisCompleted.cshtml",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Startup.cs",
+		"/C/Brisi/domen/public/index.html",
+		"/C/Users/Ziga/Documents/Fonti/dayposterblack_regular_macroman/DAYPBL__-demo.html",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/App_Start/BundleConfig.cs",
+		"/C/faks/2. letnik/2. semester/DSR/Projekt/DSRProjekt/DSRProjekt/App_Start/BundleConfig.cs",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Global.asax.cs",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Views/Shared/_Layout.cshtml",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/Frekvenčna analiza/VIZFrekvencnaAnaliza/Test/bin/Debug/sifrirana_datoteka.txt",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Views/Web.config",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Controllers/HomeController.cs",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Views/Home/Index.cshtml",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/Views/_ViewStart.cshtml",
+		"/C/Users/Ziga/Downloads/Google Chrome/Spinner/canvas.js",
+		"/C/Users/Ziga/Downloads/Google Chrome/Spinner/preloader_canvas.html",
+		"/C/faks/2. letnik/2. semester/DSR/Projekt/DSRProjekt/DSRProjekt/Views/Shared/_Layout.cshtml",
+		"/C/Brisi/domen/routes/index.js",
+		"/C/Users/Ziga/Documents/Visual Studio 2013/Projects/MVAMVCLearning/MVAMVCLearning/App_Start/Startup.Auth.cs",
+		"/C/Projects/torder/bower.json",
+		"/C/faks/2. letnik/1. semester/PB/_tab.sql",
+		"/C/faks/2. letnik/1. semester/RGIS/vaja_testiranje_ziga_ajdnik/MathUtilsTest/MathUtilTest.cs",
+		"/C/faks/ais/vaja9/FifaVictoryTracker/FifaVictory/public/index.html",
+		"/C/faks/ais/vaja9/FifaVictoryTracker/FifaVictory/public/app.js",
+		"/C/Projects/torder/.bowerrc",
+		"/C/faks/ais/vaja9/FifaVictoryTracker/FifaVictory/dev/bower.json",
+		"/C/Projects/torder/.travis.yml",
+		"/C/Projects/torder/.jshintrc",
+		"/C/Projects/torder/package.json",
+		"/C/faks/ais/vaja9/FifaVictoryTracker/FifaVictory/.bowerrc",
+		"/C/Users/Ziga/Desktop/Form1.cs",
+		"/C/Users/Ziga/Desktop/MyCompany.cs",
+		"/C/Users/Ziga/Desktop/Program.cs",
+		"/C/Users/Ziga/Desktop/podatki.xml",
+		"/C/Users/Ziga/Desktop/sqldeveloper/sqldeveloper/bin/sqldeveloper.conf",
+		"/C/Users/Ziga/Desktop/datamodeler/datamodeler/bin/datamodeler.conf",
+		"/C/faks/2. letnik/1. semester/PB/_vns.sql",
+		"/C/faks/2. letnik/1. semester/RGIS/VajaTestiranje/MathUtilsTest/MathUtilTest.cs",
+		"/C/Projects/web shop/index.html",
+		"/C/Projects/web shop/product_feature/product_controller.js",
+		"/C/Projects/web shop/shopcart_feature/shopcart_controller.js",
+		"/C/Brisi/test/app/app.js",
+		"/C/Brisi/NodeJS/NodejsConsoleApp1/NodejsConsoleApp1/app.js",
+		"/C/Brisi/NodeJS/ExpressApp1/ExpressParamParamParam/app.js",
+		"/C/Brisi/NodeJS/ExpressApp1/ExpressStatic/app.js",
+		"/C/Brisi/test/app/routes/users.js",
+		"/C/Users/Ziga/Desktop/C#POSTCLIENT.txt",
+		"/C/learning/JSPrototype/010.js",
+		"/C/learning/JSPrototype/020.js",
+		"/C/learning/JSPrototype/030.js",
+		"/C/learning/JSPrototype/040.js",
+		"/C/learning/JSPrototype/050.js",
+		"/C/learning/JSPrototype/060.js",
+		"/C/learning/JSPrototype/070.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"all",
+			"VirtualHost",
+			"18. mar. 2013",
+			"SINGL 2013",
+			"Krmak",
+			"Godfather",
+			"Krmak",
+			"krmak",
+			"console.log",
+			"\"",
+			"app.js",
+			"Žiga",
+			"debug"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"18. jan. 2015",
+			"SINGL 2015",
+			"Godfather",
+			"Krmak"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 139.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "auth.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 106.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

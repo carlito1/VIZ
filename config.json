@@ -1,0 +1,8 @@
+{
+	"connectionString": "mongodb://superuser:geslo@ds033390.mongolab.com:33390/viz",
+
+	"key" : "kriptirniKljuc",
+	"secret" : "JWTSecretKey",
+	"apiKey" : "AIzaSyDRVoAkUlJ7AX6RX19uEYRgLI4tb74E0FU",
+	"projectNumber" : "18716231727"
+}
