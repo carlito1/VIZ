@@ -1,9 +1,8 @@
 {
-	"host" : "sql5.freemysqlhosting.net:",
+	"host" : "sql5.freemysqlhosting.net",
 	"user" : "sql578464",
 	"password" : "qY8!yT6%",
 	"database" : "sql578464",
-	"port" : 3306,
 
 	"key" : "kriptirniKljuc",
 	"secret" : "JWTSecretKey",
