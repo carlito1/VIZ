@@ -30,7 +30,7 @@ var insertNewUser = function(username, password, callback){
 };
 
 var updateUserGCM = function(username, gcm_id, callback){
-	connection.query('UPDATE user SET gcm_id = ' + connection.escape(gcm_id) + ' WHERE username = ' + conenction.escape(username),function(error,result){
+	connection.query('UPDATE user SET gcm_sender_id = ' + connection.escape(gcm_id) + ' WHERE username = ' + connection.escape(username),function(error,result){
 		if(error)
 		{
 			return callback(error);
@@ -43,7 +43,7 @@ var updateUserGCM = function(username, gcm_id, callback){
 }
 
 var updateUserPin = function(username, pin, callback){
-	connection.query('UPDATE user SET last_pin = ' + connection.escape(pin) + ' WHERE username = ' + conenction.escape(username),function(error,result){
+	connection.query('UPDATE user SET last_pin = ' + connection.escape(pin) + ' WHERE username = ' + connection.escape(username),function(error,result){
 		if(error)
 		{
 			return callback(error);
@@ -61,6 +61,7 @@ var getUserWithPassword = function(username, password,callback){
 			if(error){
 				return callback(error);
 			} else {
+				console.log(result);
 				return callback(null,result[0]);
 			}
 		});
@@ -86,7 +87,7 @@ var getUserPin = function(username, callback)
 }
 
 module.exports.insertNewUser = insertNewUser;
-module.exports.updateUserGcm = updateUserGCM;
+module.exports.updateUserGCM = updateUserGCM;
 module.exports.updateUserPin = updateUserPin;
 module.exports.getUserWithPassword = getUserWithPassword;
 module.exports.getUserGCM = getUserGCM;
