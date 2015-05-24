@@ -72,7 +72,7 @@ router.post('/Login', function(req, res){
 				var token = jwt.sign({firstStep : true, user: { username: data.username}}, config.secret, {expiresInMinutes : 5});
 				// TODO: send push notification
 				console.log(data);
-				gcm.sendPin(data.gcm_sender_id, function(){
+				gcm.sendPin(data.username,data.gcm_sender_id, function(){
 					return res.status(200).json(token);
 				});
 				
