@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"next",
+				"nextRoute〔argument〕"
+			],
+			[
+				"setUser",
+				"setUserToken"
+			],
+			[
+				"$loca",
+				"$location	AngularJS"
+			],
+			[
+				"Auth",
+				"AuthenticateService〔argument〕"
+			],
+			[
+				"get",
+				"getUserPin〔function〕"
+			],
+			[
+				"getUser",
+				"getUserPin"
+			],
+			[
+				"data",
+				"dataProvider〔variable〕"
+			],
+			[
+				"getU",
+				"getUserWithPassword"
+			],
+			[
+				"up",
+				"updateUserPin"
+			],
+			[
+				"upda",
+				"updateUserGCM"
+			],
+			[
+				"in",
+				"insertNewUser"
+			],
+			[
+				"use",
+				"username〔argument〕"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"Get",
+				"GetUserWithPassword〔function〕"
+			],
+			[
+				"Set",
+				"SetUserPin〔function〕"
+			],
+			[
+				"Insert",
+				"InsertNewUser〔function〕"
+			],
+			[
 				"task",
 				"task"
 			],
@@ -50,10 +114,6 @@
 			[
 				"PRODA",
 				"PRODAJALEC"
-			],
-			[
-				"get",
-				"getQuantity"
 			],
 			[
 				"re",
@@ -207,13 +267,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 288.0,
-		"last_filter": "Install",
+		"height": 196.0,
+		"last_filter": "npm insta",
 		"selected_items":
 		[
 			[
+				"npm insta",
+				"npm: Install and Save Package"
+			],
+			[
+				"npm instal",
+				"npm: Install Package"
+			],
+			[
+				"Npm Install",
+				"npm: Install and Save Package"
+			],
+			[
+				"npn Insta",
+				"npm: Install and Save Development Package"
+			],
+			[
 				"Install",
-				"Package Control: Install Package"
+				"npm: Install Package"
 			],
 			[
 				"resour",
@@ -268,7 +344,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 472.0
+		"width": 664.0
 	},
 	"console":
 	{
@@ -290,10 +366,36 @@
 	},
 	"expanded_folders":
 	[
-		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth"
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/api",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/javascripts",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/stylesheets"
 	],
 	"file_history":
 	[
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/index.html",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/javascripts/app.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/api/users.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/secret_partial.html",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/registration_partial.html",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/public/login_partial.html",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/app.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/dataProvider.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/config.json",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/gcmSender.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/sequelize.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/views/bookshelf.js",
+		"/C/wamp/www/laravel/.gitattributes",
+		"/C/wamp/www/laravel/.gitignore",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/mongoConnection.js",
+		"/C/Projects/NodeJSProjects/NikaSistematika/SistematikaRastlin/db/databaseConnector.js",
+		"/C/Projects/NodeJSProjects/NikaSistematika/SistematikaRastlin/config.json",
+		"/C/Projects/NodeJSProjects/NikaSistematika/SistematikaRastlin/api/user_public.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/models/user.js",
+		"/C/Projects/NodeJSProjects/NikaSistematika/SistematikaRastlin/api/plants.js",
+		"/C/faks/2. letnik/2. semester/VIZ/Vaje/VIZ_auth/package.json",
+		"/C/Projects/NodeJSProjects/NikaSistematika/SistematikaRastlin/models/user.js",
 		"/C/wamp/www/ColorPicker/resources/views/game/index.blade.php",
 		"/C/wamp/www/ColorPicker/resources/views/app.blade.php",
 		"/C/wamp/www/ColorPicker/app/Http/Controllers/GameController.php",
@@ -399,33 +501,11 @@
 		"/C/Projects/torder/package.json",
 		"/C/faks/ais/vaja9/FifaVictoryTracker/FifaVictory/.bowerrc",
 		"/C/Users/Ziga/Desktop/Form1.cs",
-		"/C/Users/Ziga/Desktop/MyCompany.cs",
-		"/C/Users/Ziga/Desktop/Program.cs",
-		"/C/Users/Ziga/Desktop/podatki.xml",
-		"/C/Users/Ziga/Desktop/sqldeveloper/sqldeveloper/bin/sqldeveloper.conf",
-		"/C/Users/Ziga/Desktop/datamodeler/datamodeler/bin/datamodeler.conf",
-		"/C/faks/2. letnik/1. semester/PB/_vns.sql",
-		"/C/faks/2. letnik/1. semester/RGIS/VajaTestiranje/MathUtilsTest/MathUtilTest.cs",
-		"/C/Projects/web shop/index.html",
-		"/C/Projects/web shop/product_feature/product_controller.js",
-		"/C/Projects/web shop/shopcart_feature/shopcart_controller.js",
-		"/C/Brisi/test/app/app.js",
-		"/C/Brisi/NodeJS/NodejsConsoleApp1/NodejsConsoleApp1/app.js",
-		"/C/Brisi/NodeJS/ExpressApp1/ExpressParamParamParam/app.js",
-		"/C/Brisi/NodeJS/ExpressApp1/ExpressStatic/app.js",
-		"/C/Brisi/test/app/routes/users.js",
-		"/C/Users/Ziga/Desktop/C#POSTCLIENT.txt",
-		"/C/learning/JSPrototype/010.js",
-		"/C/learning/JSPrototype/020.js",
-		"/C/learning/JSPrototype/030.js",
-		"/C/learning/JSPrototype/040.js",
-		"/C/learning/JSPrototype/050.js",
-		"/C/learning/JSPrototype/060.js",
-		"/C/learning/JSPrototype/070.js"
+		"/C/Users/Ziga/Desktop/MyCompany.cs"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -439,6 +519,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"register",
 			"all",
 			"VirtualHost",
 			"18. mar. 2013",
@@ -476,6 +557,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -495,11 +581,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.957118353345,
 			1.0
 		],
 		"rows":
@@ -563,7 +656,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 106.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
