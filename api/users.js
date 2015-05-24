@@ -28,7 +28,12 @@ router.post('/LoginPhone', function(req, res){
 	var password = req.body.password;
 	var idGCM = req.body.regId;
 
+	console.log('Login phone');
+	console.log(req.body);
+	dataProvider.getUserWithPassword(username,password,GetUser);
+
 	function GetUser(error,data){
+		console.log(data);
 		if(error)
 		{
 			return res.status(500).json(error);
@@ -66,7 +71,11 @@ router.post('/Login', function(req, res){
 				// Uporabnik ima 5 min časa, da nadaljuje z avtentifikacijo.
 				var token = jwt.sign({firstStep : true, user: { username: data.username}}, config.secret, {expiresInMinutes : 5});
 				// TODO: send push notification
-				return res.status(200).json(token);
+				console.log(data);
+				gcm.sendPin(data.gcm_sender_id, function(){
+					return res.status(200).json(token);
+				});
+				
 			}
 			else {
 				return res.status(404).end();
