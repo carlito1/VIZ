@@ -29,7 +29,7 @@ router.post('/LoginPhone', function(req, res){
 	var idGCM = req.body.regId;
 
 	console.log('Login phone');
-	console.log(req.body);
+	console.log(username, password, idGCM);
 	dataProvider.getUserWithPassword(username,password,GetUser);
 
 	function GetUser(error,data){
