@@ -9,14 +9,19 @@ var config = require('../config');
 
 
 router.post('/Register', function(req, res){
+	// Pridobimo podatke iz telesa zahteve
 	var username = req.body.username;
 	var password = req.body.password;
 
+	// Vstavimo uporabnika v podatkovno bazo.
 	dataProvider.insertNewUser(username,password, function(error){
 		if(error){
+			// V primeru napake pri vstavljanju
+			// vrnemo status 500 in napako.
 			return res.status(500).json(error);
 		}
 		else {
+			// Vrnemo sporočilo o nastanku novega vira
 			return res.status(201).end();
 		}
 
@@ -98,6 +103,9 @@ router.post('/LoginPin', function(req,res){
 		dataProvider.getUserPin(decoded.user.username,function(error,result){
 			if(pin == result.last_pin)
 			{
+
+				console.log('Input pin',pin);
+				console.log('actual pin', result.last_pin);
 				var token = jwt.sign({authorized : true, user : decoded.user.username}, config.secret, {expiresInMinutes : 60});
 
 				return res.status(200).json(token);

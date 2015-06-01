@@ -9,21 +9,19 @@ var connection = mysql.createConnection({
 
 
 var insertNewUser = function(username, password, callback){
-	console.log('Inside insert new user');
-	console.log(username);
-	console.log(password)
+	// Izvedba poizvedbe za vnos podatkov.
+	// connection.escape -> preveri pravilnost parametrov
 	connection.query('INSERT INTO user(username,password) VALUES (' + connection.escape(username) + ', ' +
 		connection.escape(password)+')', function(error, result){
 
 			if(error)
 			{
-				console.log(error);
-				console.log('End insert new user');
+				// pokličemo callback z napako
 				return callback(error);
 			}
 			else
 			{
-				console.log('End insert new user');
+				// pokličemo callback brez napake
 				return callback(null);
 			}
 	});

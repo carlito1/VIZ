@@ -1,4 +1,13 @@
 angular.module('VIZ', ['ngRoute'])
+
+    .controller('PinNumberController', ['$scope', 'UserService',  function($scope, UserService){
+        $scope.pinNumber = 1000;
+        $scope.error= "";
+        $scope.Prijavi = function()
+        {
+            UserService.pin($scope.pinNumber);
+        }
+    }])
 	
     .controller('LoginController', ['$scope', '$window', 'UserService', function ($scope, $window, UserService) {
         
@@ -72,8 +81,8 @@ angular.module('VIZ', ['ngRoute'])
         	var deffered = $q.defer();
 
         	$http.post('/api/LoginPin',{ pin : pin}).success(function(token){
-        		Authentication.setUserToken(token);
-        		$location.location('/');
+        		AuthenticateService.setUserToken(token);
+        		$location.path('/');
 
         		deffered.resolve();
         	}).error(function(){
@@ -89,7 +98,7 @@ angular.module('VIZ', ['ngRoute'])
             var deffered = $q.defer();
             $http.post('/api/Login',{ username: username, password: password }).success(function (data) {
                 AuthenticateService.setUserToken(data);
-                $location.path('/');
+                $location.path('/pin');
                 deffered.resolve();
             })
             .error(function (data) {
@@ -167,7 +176,6 @@ angular.module('VIZ', ['ngRoute'])
         $routeProvider.when('/', {
             templateUrl: '/partials/secret/',
             access : { requiredLogin: true,
-            	twoStep : true
              }
         })
         .when('/login', {
@@ -177,6 +185,10 @@ angular.module('VIZ', ['ngRoute'])
         .when('/registration', {
             templateUrl: 'registration_partial.html',
             access : { requiredLogin: false }
+        })
+        .when('/pin', {
+            templateUrl: 'pin.html',
+            access : {requiredLogin: true }
         })
         .otherwise({
             redirectTo: '/'
