@@ -1,11 +1,11 @@
 {
-	"host" : "sql5.freemysqlhosting.net",
-	"user" : "sql578464",
-	"password" : "qY8!yT6%",
-	"database" : "sql578464",
+	"host" : "dbhost",
+	"user" : "dbuser",
+	"password" : "dbpassword",
+	"database" : "dbname",
 
-	"key" : "kriptirniKljuc",
-	"secret" : "JWTSecretKey",
-	"apiKey" : "AIzaSyDRVoAkUlJ7AX6RX19uEYRgLI4tb74E0FU",
-	"projectNumber" : "18716231727"
+	"key" : "cryptokey",
+	"secret" : "jwtkey",
+	"apiKey" : "apikey",
+	"projectNumber" : "projectnumber"
 }
